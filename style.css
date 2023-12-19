@@ -129,6 +129,7 @@ nav .itens h1.logo{
     display: flex;
     flex-direction: column;
     margin-top: 5vw;
+    justify-content: center;
 }
 .cards .card1{
     display: flex;
@@ -171,7 +172,15 @@ nav .itens h1.logo{
 
 .cards .card3{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
 }
 .cards .card3 .principal{
     flex-direction: column;
+    max-width: 35vw;
+    margin-left: 5vw;
+}
+.cards .card3 .principal p{
+    margin: 1vw 0 3vw 0;
 }
