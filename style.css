@@ -18,7 +18,8 @@ h1, p{
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;  
+    overflow-x: hidden;
 }
 a, li{
     list-style: none;
@@ -128,8 +129,12 @@ nav .itens h1.logo{
 .cards{
     display: flex;
     flex-direction: column;
-    margin-top: 5vw;
+    margin: 5vw 0;
     justify-content: center;
+}
+.cards img{
+    border-radius: 30px;
+    box-shadow: 20px 20px 0 var(--roxo);
 }
 .cards .card1{
     display: flex;
@@ -138,9 +143,10 @@ nav .itens h1.logo{
 }
 .cards .card1 .resposta{
     display: grid;
-    grid-template-columns: 30% 30%;
+    grid-template-columns: 50% 50%;
     gap: 20px 3vw;
     margin-top: 4vh;
+    width: 32vw;
 }
 .cards .card1 .resposta h1{
     font-size: 1.2rem;
@@ -152,10 +158,6 @@ nav .itens h1.logo{
 }
 .cards .card1 .principal{
     margin-left: 5vw;
-}
-.cards img{
-    border-radius: 30px;
-    box-shadow: 20px 20px 0 var(--roxo);
 }
 
 .cards .card2{
